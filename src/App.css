@@ -37,7 +37,7 @@
 
 @media(max-width: 768px){
 
-
+  /**HOME PAGE**/
 
   .box1{
     height: 400px;
@@ -58,9 +58,12 @@
     border-style: none;
   }
 
+    /**CLINIC PAGE**/
+
   .operation2{
     background-color: pink;
-    height: 100%;
+    height:100vh;
+    
   }
 
   .box2{
@@ -68,7 +71,12 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    height:100vh;
+    
+    
   }
+
+  /**DOCTORS PAGE**/
 
   .dr3{
     color: white;
@@ -80,8 +88,35 @@
    
   }
 
+  .dr3{
+    text-align: center;
+  }
+
   .box3-1{
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+  }
+
+  
+  .box3-2{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+
+  .txt3{
+    margin: 15px;
+    font-size: 25px;
+  }
+
+  .heart3{
+    margin: 10px;
   }
 
   .btn3{
@@ -92,7 +127,7 @@
     border-radius: 5px;
     border-style: none;
     color: white;
-
+    margin-bottom: 10px;
   }
 
 
@@ -100,9 +135,11 @@
 
 @media(min-width: 769px){
 
+  /**HOME PAGE**/
+
   .operation2{
     background-color: pink;
-    height: 100%;
+    height:100vh;
   }
 
 
@@ -111,9 +148,56 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    height:100vh;
+  
   }
 
+  .operation3{
+    background-color: rgb(0, 139, 98);
+    
+   
+  }
 
+  .dr3{
+    text-align: center;
+    color: white;
+  }
+
+  
+  .box3-1{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    font-size: 30px;
+  }
+
+  
+  .box3-2{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+
+  .txt3{
+    margin: 30px;
+    width: 450px;
+  }
+
+  .btn3{
+    height: 40px;
+    width: 100px;
+    color: rgb(105, 63, 63);
+    background-color: brown;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    margin-bottom: 10px;
+  }
 
 
 }
