@@ -35,6 +35,12 @@
   background-color: #cccccc;
 }
 
+.operation__card{
+  background-image: url('./images/banner.png');
+  background:cover no-repeat ;
+}
+
+
 @media(max-width: 768px){
 
   /**HOME PAGE**/
@@ -75,6 +81,7 @@
     
     
   }
+
 
   /**DOCTORS PAGE**/
 
